@@ -1,0 +1,210 @@
+ 
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+
+    width: 1040px; 
+    margin: 0px auto; 
+    background-color: rgb(255, 255, 255);
+  }
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 45, 45);
+}
+
+header h1 {
+    background-color: rgb(83, 118, 212);
+    margin-left: 50px;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+
+nav a {
+    padding: 0 10px;
+    background: rgb(48, 45, 45);
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    border-left: 2px solid #bd3030;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+ .logomain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(211, 175, 175);
+ }
+ .logomain > div {
+     text-align: center;
+     height: 240px;
+ }
+
+ .logomain div p {
+     margin-left: 25px;
+     width: 550px;
+     font-size: 26px;
+     text-align: left;
+ }
+
+ .logophoto {
+    width: 400px;
+    height: 240px;
+}
+
+ .button {
+    font-size: 16px;
+    color: rgb(10, 7, 7);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(41, 199, 54);
+    border-radius: 16px;
+    border: 1px solid rgb(57, 211, 95);
+    padding: 6px 10px;
+    cursor: pointer;
+    font: arial sans-serif;
+ }
+
+ .button:hover {
+    color: rgb(46, 68, 23);
+ }
+
+ nav a:hover {
+    color: rgb(124, 153, 202);
+}
+
+
+
+ .maincenter {
+     padding: 25px;
+     background: rgb(224, 230, 231);
+     display: flex;
+ }
+
+
+ .maincenter div h2 {
+    font-size: 28px;
+ }
+
+ .maincenter div iframe {
+     margin-left: 40px;
+ }
+
+ .bottom-bar {
+     color: rgb(0, 0, 0);
+     text-align: center;
+     background-color: rgb(175, 156, 156);
+    }
+
+ .emotic {
+     display: inline-flex;
+     text-align: center;
+     font-weight: bold;
+}
+
+ .emotic1 {
+     height: 40px;
+ }
+
+ .emotic2 {
+    height: 40px;
+}
+
+ .emotic3 {
+    height: 40px;
+}
+
+.emotic4 {
+    height: 40px;
+}
+
+.footer {
+    display: inline-flex;
+    background-color: rgb(49, 36, 36);
+    color: white;
+    padding: 0 15%;
+    width: 1040px;
+}
+
+.f1 {
+    width: 170px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+    margin: 20px;
+}
+
+.f1 div {
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: left;
+    margin: 0 15px;
+    padding-top: 10px;
+    line-height: 30px;
+    border: 2px solid red;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+
+.f2 {
+    width: 170px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+    margin: 20px;
+}
+
+.f2 div {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+    text-align: left;
+}
+
+.f2 a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 170px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+    margin: 15px;
+    border-bottom: 1px white solid;
+}
+
+
+.f3 {
+    width: 170px;
+    font-size: 14px;
+    text-align: left;
+    margin: 20px;
+}
+
+.f3 div {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: left;
+}
+.f3 p {
+    line-height: 25px;
+}
+
+.photoproject {
+    height: 400px;
+    width: 1045px;
+}

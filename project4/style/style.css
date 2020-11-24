@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+}
+
+header, nav {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+nav {
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo {
+    width: 100%;
+    max-width: 176px;
+    align-items: center;
+}
+nav .logo img {
+    width: 176px;
+
+}
+nav .menu {
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+
+nav ul li a:hover {
+    color: rgb(199, 7, 7);
+    transition: 0.6s;
+}
+
+.slider-main-section {
+    padding-top: 20px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.slide-box {
+    display: flex;
+    align-items: center;
+}
+
+.slide-box .box li {
+    padding-left: 50px;
+}
+
+.slide-box .box li button {
+    height: 11px;
+    width: 11px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 0;
+}
+
+.slide-box .box li button:hover {
+    height: 13px;
+    width: 13px;
+    background-color: rgb(199, 7, 7);
+    transition: 0.6s;
+}
+
+.slide-box .text {
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.slide-box .text h2, span {
+    display: block;
+    font-size: 80px;
+    
+}
+
+.slide-box .text h2 {
+    color: white;
+}
+.slide-box .text span {
+    color: rgb(199, 7, 7);
+}
+
+.slide-box .box {
+    max-width: 50%;
+    width: 100%;
+}
+
+.slide-box .box picture img {
+    width: 100%;
+}
+
+.banner-section {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    height: 700px;
+}
+
+.banner-section .bg-home {
+    position: absolute;
+    z-index: -1;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+
+    margin-top: -20px;
+}
+
+.banner-section .box {
+    display: flex;
+    color: white;
+    max-width: 50%;
+    width: 100%;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.banner-section div {
+
+    justify-content: center;
+}
+
+.banner-section .box h2 {
+    font-size: 80px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-section .box div p{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 50px;
+    padding-right: 250px;
+}
+
+.slider-section {
+    position: relative;
+    top: -100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.slider-section .slick-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.slider-section .slick-list img {
+    max-width: 200px;
+    width: 100%;
+    margin: 30px;
+}
+
+.clim-section {
+    display: block;
+}
+
+.clim-section .wrapper {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.clim-section .wrapper .header h3 {
+    display: block;
+    font-size: 42px;
+    text-align: center;
+}
+
+.clim-section .wrapper .clims {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clim-section .wrapper .clims .clim {
+    border: 1px solid gray;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
