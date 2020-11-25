@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akordeon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="header" id="hamburger">AKORDEON</h2>
+    </div>
+    <div class="menu-box">
+    <div class="accordion" id="menu">
+        <div class="accordion-items">
+            <div class="item" onClick="toggleClass(0)">
+                <h1 class="accordion-tittle">
+                    <span>O nas</span>
+                </h1>
+                <p>Jesteśmy liderem na rynku. Działamy od 25 lat! Wiele osób zaufało nam!</p>
+            </div>
+            <div class="item" onClick="toggleClass(1)">
+                <h1 class="accordion-tittle">
+                    <span>O produkcie</span>
+                </h1>
+                <p>Nasz produkt jest najlepszy na świecie!!</p>
+            </div>
+            <div class="item" onClick="toggleClass(2)">
+                <h1 class="accordion-tittle">
+                    <span>Kontakt</span>
+                </h1>
+                <p>Skontaktuj się z nami, służymy pomocą!!!</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
