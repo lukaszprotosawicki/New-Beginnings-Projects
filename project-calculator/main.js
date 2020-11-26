@@ -1,35 +1,38 @@
-        const POLE_1 = document.getElementById('pole_1');
-        const POLE_2 = document.getElementById('pole_2');
-        const POLE_3 = document.getElementById('pole_3');
-        const POLE_4 = document.getElementById('pole_4');
-         
-        function Dodawanie(a, b){
-            return a + b;
-        }
-        function Odejmowanie (a, b){
-            return a - b;
-        }
-        function Mnozenie (a, b){
-            return a * b;
-        }
-        function Dzielenie (a , b){
-            if (b == 0)  alert ('Nie można dzielić przez 0!'); 
-            else return a / b ;
-        }
-        function Modulo (a, b){
-            return a % b;
-        }
-        function Wynik(){
-            let w1 = Number(POLE_1.value);
-            let w2 = Number(POLE_3.value);
-            let cos = String(POLE_2.value);
-         
-            if (cos == "") POLE_4.value = "Brak danych";
-            else if (cos == "+") POLE_4.value = Dodawanie(w1, w2);
-            else if (cos == "-") POLE_4.value = Odejmowanie(w1, w2);
-            else if (cos == "*") POLE_4.value = Mnozenie(w1, w2);
-            else if (cos == "/") POLE_4.value = Dzielenie(w1, w2);
-            else if(cos == "%") POLE_4.value = Modulo(w1, w2);
-        }
-         
-         
+const object_1 = document.getElementById('object_1');
+const object_2 = document.getElementById('object_2');
+const object_3 = document.getElementById('object_3');
+const object_4 = document.getElementById('object_4');
+
+function addition(a, b) {
+    return a + b;
+}
+
+function subtraction(a, b) {
+    return a - b;
+}
+
+function multiplication(a, b) {
+    return a * b;
+}
+
+function division(a, b) {
+    if (b == 0) alert('Nie można dzielić przez zero')
+    return a / b;
+}
+
+function modulo(a, b) {
+    return a % b;
+}
+
+function score() {
+    let o1 = Number(object_1.value);
+    let o3 = Number(object_3.value);
+    let equation = String(object_2.value);
+
+    if (equation == "") object_4.value = "Brak danych";
+    else if (equation == "+") object_4.value = addition(o1, o3);
+    else if (equation == "-") object_4.value = subtraction(o1, o3);
+    else if (equation == "*") object_4.value = multiplication(o1, o3);
+    else if (equation == "/") object_4.value = division(o1, o3);
+    else if (equation == "%") object_4.value = modulo(o1, o3);
+}
