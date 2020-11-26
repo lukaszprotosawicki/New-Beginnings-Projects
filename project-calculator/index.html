@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> Prosty Kalkulator </header>
-    <input type="text" id="pole_1">
-    <select id="pole_2">
-        <option value=""> </option>
-        <option value="+"> + </option>
-        <option value="-"> - </option>
-        <option value="*"> * </option>
-        <option value="/"> / </option>
-        <option value="%"> % </option>
-    </select>
-    <input type="text" id="pole_3">
-    <input type="text" id="pole_4">
-    <input type="submit" value="Wynik" onclick="Wynik()">
+    <header>Prosty Kalkulator</header>
+        <div>
+            <input type="text" id="object_1">
+            <select name="" id="object_2">
+                <option value=""> </option>
+                <option value="+"> + </option>
+                <option value="-"> - </option>
+                <option value="*"> * </option>
+                <option value="/"> / </option>
+                <option value="%"> % </option>
+            </select>
+        </div>
+        <div>
+            <div class="direccion">
+                <input type="text" id="object_3">
+                <input class="button" type="submit" value="Wynik" onclick="score()">
+                <input type="text" id="object_4">
+            </div>
+        </div>
     <script src="main.js"></script>
 </body>
 </html>
