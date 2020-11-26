@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 34px;
+    font-family: arial;
+}
+
+body div {
+    display: block;
+}
+
+.wynik {
+    margin: 10px 0;
+}
